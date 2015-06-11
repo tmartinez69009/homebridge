@@ -15,6 +15,14 @@
             "name": "SmartThings",
             "app_id": "JSON SmartApp Id",
             "access_token": "JSON SmartApp AccessToken",
+        },
+        {
+            "platform": "Jeedom",
+            "name": "Jeedom",
+            "jeedom_ip": "Jeedom IP",
+            "jeedom_port" : "Jeedom Port",
+            "jeedom_url": "Jeedom URL",
+            "jeedom_api_key": "Jeedom API Key"
         }
     ],
 
