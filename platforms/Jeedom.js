@@ -22,7 +22,7 @@ JeedomPlatform.prototype = {
 	
 	request.post(url_jeedom, {json: true,
 		form: {
-		    request: '{"jsonrpc":"2.0","method":"getModulesList","params":{"apikey":"'+jeedom_api_key+'","plugin":"homekit","slave_id":"1"}}'
+		    request: '{"jsonrpc":"2.0","method":"getModulesList","params":{"apikey":"'+jeedom_api_key+'","plugin":"homebridge","slave_id":"1"}}'
 		  }
 		}, function(err, res, json) {
 		if (!err && res.statusCode == 200) {
